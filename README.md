@@ -17,7 +17,8 @@ This repository contains fundamental exercises demonstrating **Object-Oriented P
 - **\`TentativeConnexion.py\`**: Demonstrates operator overloading in Python by implementing \`__str__\` for custom string representation and \`__eq__\` to define custom equality logic.
 
 ### 5. Inheritance and Polymorphism
-- **\`classAlerte.py\`**: Demonstrates inheritance (subclasses \`AlerteIntrusion\` and \`AlerteMalware\` inheriting from \`Alerte\`) and polymorphism (overriding \`afficher_info()\` to provide specialized behavior for different alert types).
+- **\`classAlerte.py\`**: Demonstrates inheritance and polymorphism by overriding \`afficher_info()\` for specialized alert types.
+- **\`classAppareilReseau.py\`**: Further demonstrates inheritance where \`Serveur\` and \`Routeur\` extend the base \`AppareilReseau\` class. It showcases polymorphism by overriding \`afficher_info()\` to include device-specific details (OS/services for servers, interfaces/firmware for routers) while calling the base class method to retain common functionality.
 
 ---
 *Learning the foundations of robust software engineering - Dina.*
