@@ -10,8 +10,8 @@ This repository contains fundamental exercises demonstrating **Object-Oriented P
 ### 2. Encapsulation
 - **`classCompte.py`**: Showcases encapsulation by managing bank account data and operations within a class structure.
 
-### 3. Data Modeling
-- **\`classArticle.py\`**: Demonstrates how to model real-world entities (articles) using classes for structured data management.
+### 3. Data Modeling & Encapsulation
+- **\`classArticle.py\`**: Demonstrates data modeling with encapsulation. Private attributes (`__reference`, `__nom`, etc.) are protected using name mangling and accessed through getter and setter methods. It also implements business logic for managing inventory (approvisionner, vendre) and tax calculations.
 
 ### 4. Operator Overloading
 - **\`TentativeConnexion.py\`**: Demonstrates operator overloading in Python by implementing \`__str__\` for custom string representation and \`__eq__\` to define custom equality logic.
