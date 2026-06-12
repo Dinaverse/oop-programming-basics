@@ -23,6 +23,9 @@ This repository contains fundamental exercises demonstrating **Object-Oriented P
 ### 6. Abstraction and Abstract Base Classes (ABC)
 - **\`Employee.py\`**: Demonstrates abstraction in Python using the \`abc\` module. The base \`Employee\` class is an Abstract Base Class (ABC) with an abstract method \`get_salaire()\`. This enforces that any subclass (\`Ouvrier\`, \`Cadre\`) must implement its own salary calculation logic, ensuring a consistent interface across different employee types.
 
+### 7. Composition and System Management
+- **\`classParcInformatique.py\`**: Demonstrates **Composition**, a design principle where a class (\`ParcInformatique\`) is composed of one or more objects of other classes (\`Equipement\` and its subclasses). This script shows how to manage a collection of heterogeneous objects (computers, printers, servers) within a single system, coordinating their collective behavior (maintenance, task execution) while leveraging polymorphism.
+
 ---
 *Learning the foundations of robust software engineering - Dina.*
 
