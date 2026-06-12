@@ -20,6 +20,9 @@ This repository contains fundamental exercises demonstrating **Object-Oriented P
 - **\`classAlerte.py\`**: Demonstrates inheritance and polymorphism by overriding \`afficher_info()\` for specialized alert types.
 - **\`classAppareilReseau.py\`**: Further demonstrates inheritance where \`Serveur\` and \`Routeur\` extend the base \`AppareilReseau\` class. It showcases polymorphism by overriding \`afficher_info()\` to include device-specific details (OS/services for servers, interfaces/firmware for routers) while calling the base class method to retain common functionality.
 
+### 6. Abstraction and Abstract Base Classes (ABC)
+- **\`Employee.py\`**: Demonstrates abstraction in Python using the \`abc\` module. The base \`Employee\` class is an Abstract Base Class (ABC) with an abstract method \`get_salaire()\`. This enforces that any subclass (\`Ouvrier\`, \`Cadre\`) must implement its own salary calculation logic, ensuring a consistent interface across different employee types.
+
 ---
 *Learning the foundations of robust software engineering - Dina.*
 
